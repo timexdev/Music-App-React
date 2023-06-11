@@ -21,7 +21,8 @@ const Music = () => {
     <div>
         <div className='container-fluid' style={{backgroundColor:'black'}}>
             <div className="container">
-                <h1 className='text-white text-center pt-5 fw-bold'>NEW MUSICS</h1>
+                <h1 className='text-white text-center pt-5 fw-bold'>NEW MUSIC</h1>
+                <p className='text-white text-center fs-5 fw-semibold'>Step into a world of sonic enchantment with our exciting New Music Session. </p>
                 <div className="row pt-3">
                 {
                 isloading==true? "loading..." :
